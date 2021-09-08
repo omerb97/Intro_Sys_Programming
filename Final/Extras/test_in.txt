@@ -1,0 +1,89 @@
+g1 = {a  ,b,c, d|<a,d>,<b,d>,  <d,b> ,<c,d>}
+print({a,d|<a,d>} ^ g1)
+temp = (!(!(g1)))
+print( temp)
+g2={a,d|<a,d>} 
+print(g2 ^ ((!(!(g1))) + g1))
+print((g1))
+print({b} * g2 ^ ((!(!(g1))) + g1))
+print( g2 ^ ((!(!(g1))) + g1) * {b})
+print( g2 ^ ((!(!(g1))) + g1) * {b,c|<c,b>})
+print(  !    g1)
+delete (temp)
+save( g1 * g2, temp.file)
+g6 = {}
+g6={|}
+G1 = {x1,x2,y1, p1,z | <x1,z>, <x1,y1>,<x1,p1>,<x2,y1>,<x2,z>, <z,p1>,<z,x1>,<y1,p1>}
+who
+(print(G1))
+G4 ={][x1,x2,x3}
+G4 ={x1,;x;[]2,x3}
+G4 ={][x1,x2,x[;]]3}
+G6={jill        ,sandy,barry|<jill,sandy>,<samual,      barry>}
+delete(jj)
+print
+delete
+save
+hhell{}
+hhell{}
+g=()
+b={a,c,}
+print((G1*g6)+g1)
+bc = print({gh})
+delete(bc)
+reset
+
+reset = null
+NULL
+PRINT = {this, is, legal}
+print(PRINT)
+delete({a})
+who = dislike
+g = a,b,   c |
+
+g1 = {a  ,b,c, d|<a,d>,<b,d>,  <d,b> ,<c,d>}
+g2 = (!!!!!!!!  !!!((!!!!  !!!(!( !     g1) ) ))     )
+print (g 2)
+print(g2)
+g3 = ({|} ^ g2)
+print(g3)
+.print(g2)
+delete(g2
+      who      
+9g= {hel}
+=ill
+graph  name = {space}p
+reset reset
+print{g2}
+print({g2})
+print(g2)
+reset
+
+n1 = {<a,b>|a, b}
+j = {|||}
+print(j)
+n1={09[;],kk|<09[;],kk>}
+n2 = {a  ,b,c,d|<a,d>,    <b,d>,  <d,b> ,<c,d>}
+n3 = !     n2
+print(n3)
+print (n1*n2-n3)
+print (n1*n2-!n3)
+print (n1*(n2-!n3))
+delete (n1*n2)
+delete(n1)
+who
+who delete(n2)
+who
+delete(n2)
+reset
+
+
+
+
+
+
+
+
+
+
+

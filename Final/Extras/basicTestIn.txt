@@ -1,0 +1,28 @@
+G1 = {x1,x2,y1, p1,z | <x1,z>, <x1,y1>,<x1,p1>,<x2,y1>,<x2,z>, <z,p1>,<z,x1>,<y1,p1>}
+who
+print(    g1)
+print(G1)
+G2 = !G1
+g7 = !g9
+G3 = G1 *G2
+delete(jj)
+delete(G3)
+G4 ={][x1,x2,x3}
+G4 ={x1,;x;[]2,x3}
+G4 ={][x1,x2,x[;]]3}
+G4 ={x1,x2,x3}
+G5=G1-G4
+G6={jill,sandy,barry|<jill,sandy>,baron}
+G6={jill,sandy,barry|<jill,sandy>,<barry,barry>}
+G6={jill,sandy,barry|<jill,sandy>,<samual,barry>}
+G7 = G5 + G4
+who
+G8 = G1 ^ G2
+print(G7)
+print(G8)
+pri nt(G8)
+who
+reset
+who
+print(G1)
+quit
