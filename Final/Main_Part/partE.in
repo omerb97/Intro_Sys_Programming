@@ -1,0 +1,71 @@
+
+g1 = {hello, world}
+g2 = {ob, la, di | <ob, la>}
+print(g1=g1+g2)
+print(g1+g2())
+print(g1(+)g2)
+print(()g1+g2)
+g1()=g1+g2
+(g1)=g1+g2
+print((g1)=g1+g2)
+()
+print()
+print(())
+(print(g1))
+g1+g2
+g1 + g2
+      g1 + g2
+g = ()
+g1 = g2 + ()
+g 1 = g2
+g1 = g 2
+
+who
+g3 = !{life, goes, on|<life, goes>}
+print(g3)
+g3 = !({life, goes, on|<life, goes>})
+print(g3)
+save({paul, mccartney}, the{beatles})
+print(load(the{beatles}))
+save(g1+g2, thefile.gc)
+print(load(thefile.gc))
+g3 = (g1) + g2
+g3 = (g1+g2)
+g2 = g1 + g1+g1+ g1
+g1 = g2 + {}
+print4={}
+print(print4)
+
+save({ringo, star}, is"drum"er)
+print(load(is"drum"er))
+save({ringo, star}, is'drum'er)
+print(load(is'drum'er))
+
+reset
+g1 = {1,2,3 | <1,2>}
+g1 = !
+g1 = (!)
+g1 = (!!)
+g1 = (!!){a}
+g1 = (!)g2
+g1 = (!!)g2
+
+save({hell}, print)
+print(load(print))
+
+x = {this, is, crazy}
+print(save(x, my.gc))
+save(x, my=file.gc)
+print(load(my=file.gc))
+
+print
+delete
+save
+who = {a,b,c }
+whom = {a,b,c}
+save({hell}, print)
+save(load(print), quit)
+save(load(a),b)
+
+z = ! !x
+print(z)

@@ -1,0 +1,42 @@
+
+reset
+graphA = {m,k | <m,k>}
+graphB = {o}
+save(graphA, myfile1.gc)
+save(graphB, myfile2.gc)
+print(load(myfile1.gc))
+print(   load(myfile1.gc))
+print(   load   (   myfile1.gc))
+print(load(myfile1.gc       ))
+print(load(myfile1.gc)    )
+print(load(myfile1.gc) + load(myfile2.gc))
+print({n} + load(myfile1.gc) * {p})
+print({n} + (load(myfile1.gc) * {p}))
+print({n} + (    load(myfile1.gc) * {p}  ))
+print({n} + (load(myfile2.gc) * ( load(myfile1.gc) * {p} ) ))
+graphC = {load, save}
+save(graphC, my lovely file 3.gc)
+print(load(my lovely file 3.gc))
+graphD = {print, PRINT|<print, PRINT>}
+save(graphD, my+file{3}.gc)
+print(((load(my+file{3}.gc))))
+
+graphD = !((graphA))) * ({a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ load ( myfile1.cg ) - {c,d|<c,d>}))
+print({n} + (    loadload(myfile1.gc) * {p}  ))
+print({n} + (    load,(myfile1.gc) * {p}  ))
+print({n} + (    ,load(myfile1.gc) * {p}  ))
+print({n} + (,   load(myfile1.gc) * {p}  ))
+print({n} + (myload(myfile1.gc) * {p}  ))
+print({n} + (my load(myfile1.gc) * {p}  ))
+print({n} + ({w}load(myfile1.gc) * {p}  ))
+print(load(myfile1.gc) + load(myfile2.gc)
+save(load())
+load(myfile1.gc)
+
+who
+
+delete((graphC))
+
+reset
+reset
+reset

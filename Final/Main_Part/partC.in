@@ -1,0 +1,41 @@
+
+graphA = {w1, w2, w3 | <w3,w1>, <w1,w2>}
+graphB = { w4, w3, w1 | <w4,w3>, <w3,w4>, <w3,w1>}
+graphC = graphA - graphB
+print(graphC)
+graphD = graphC * graphA + graphB
+print(graphD)
+graphE = graphC * graphA + graphB ^ !graphD
+print(graphE)
+graphF = graphC * graphA + graphB ^ !graphD - graphE
+print(graphF)
+graphD = graphC * graphA * graphB
+print(graphD)
+graphD = graphD * graphD
+print(graphD)
+graphD = {a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ {c,d|<c,d>})
+print(graphD)
+graphD = graphA + {a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ {c,d|<c,d>})
+print(graphD)
+graphD = !graphA * ({a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ {c,d|<c,d>}))
+print(graphD)
+graphD = ((!(graphA) ) * (     {a,b,c|<a,b>,<b,c>} + !(  ! ( {c,d}) ^ {c,d|<c,d>}   ) ) )
+print(graphD)
+who
+
+graphA = {e,f,g | <e,f> ,<e,g>}
+print(!graphA)
+print(!!graphA)
+print(!!!!!!!!!!!!graphA)
+print(!!!(!(!!!!(!!!!!graphA))))
+print({ttt,lll}+!{kkk,mmm,sss|<kkk,mmm>}-{sss})
+print((({ttt,lll})+!(({kkk,mmm,sss|<kkk,mmm>})-({sss}))))
+
+graphD = !((graphA)
+graphD = !((graphA)))
+graphD = !((graphA) * ({a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ {c,d|<c,d>}))
+graphD = !((graphA))) * ({a,b,c|<a,b>,<b,c>} + !(!{c,d} ^ {c,d|<c,d>}))
+
+delete(!graphA)
+delete({print, delete, who, quit, reset})
+delete(graphA + graphD)
